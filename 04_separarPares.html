@@ -8,11 +8,13 @@
     //ENTRADA
     let listaDeItens = [1, "João", "Eduardo", "Joice", 3, 5, 6, 8, "Maria", 5.6, 10];
     let listapares = [];
-    let listaoriginal = [];
-    for(let item of listaDeItens) {
-        if (item %  )
-    }
 
+    for (let item of listaDeItens) {
+        if (item % 2 == 0) {
+            listapares.push(item);
+        }
+    }
+    alert(listapares.sort((a, b) => a-b));
 
 
     //PROCESSAMENTO
